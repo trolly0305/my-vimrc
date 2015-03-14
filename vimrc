@@ -70,3 +70,7 @@ endif
 source $VIMRUNTIME/ftplugin/man.vim
 
 set splitright
+
+
+highlight WhitespaceEOL ctermbg=red guibg=red 
+match WhitespaceEOL /\s\+$/
